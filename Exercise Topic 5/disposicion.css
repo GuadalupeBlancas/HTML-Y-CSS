@@ -1,0 +1,16 @@
+.galeria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: greenyellow;
+    height: 700px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img{
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+}

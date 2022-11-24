@@ -1,0 +1,12 @@
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+button::before {
+    content: "Haz clic aqui";
+}
+
+button::after{
+    content: " hecho";
+}
